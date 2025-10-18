@@ -1,9 +1,4 @@
 
----
-
-## 📄 README.md – Sağlıklı Yaşam Rehberi
-
-```markdown
 # Sağlıklı Yaşam Rehberi 🌿
 
 Bu proje, HTML ve CSS kullanılarak hazırlanmış, sağlıklı yaşam konularında bilgilendirici bir web sitesidir. Beslenme, egzersiz ve uyku gibi temel yaşam alanlarında ipuçları sunar. GitHub Pages üzerinden yayınlanmıştır ve mobil uyumlu, sade bir tasarıma sahiptir.
@@ -25,20 +20,19 @@ Bu proje, HTML ve CSS kullanılarak hazırlanmış, sağlıklı yaşam konuları
 
 ## 📁 Dosya Yapısı
 
-```
 saglikli-yasam-rehberi/
 ├── index.html
 ├── style.css
 ├── /images (görseller burada)
 ├── README.md
-```
+
 
 ## 🛠️ Kullanım
 
 1. Bu repoyu klonlayın:
-   ```
+
    git clone https://github.com/Ibrahimoz5806/saglikli-yasam-rehberi.git
-   ```
+
 2. Tarayıcınızda `index.html` dosyasını açın.
 3. CSS dosyasını düzenleyerek kendi stilinizi uygulayabilirsiniz.
 
@@ -58,6 +52,6 @@ Katkıda bulunmak isterseniz:
 ## 📄 Lisans
 
 Bu proje açık kaynaklıdır. Eğitim ve portföy amaçlı kullanıma uygundur.
-```
 
----
+
+
