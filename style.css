@@ -1,0 +1,129 @@
+/* Genel Ayarlar */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Başlık ve Navigasyon */
+header {
+  background-color: #a8d5ba;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ffb6b9;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #ff8a9c;
+}
+
+/* Bölümler */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+section h2 {
+  color: #2e8b57;
+  margin-bottom: 10px;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+/* Günün Tavsiyesi */
+#gunun-tavsiyesi {
+  background-color: #e0f7fa;
+  border-left: 5px solid #2e8b57;
+}
+
+/* Footer */
+footer {
+  background-color: #a8d5ba;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section {
+    margin: 20px;
+  }
+}
+
+/* İçerik düzeni */
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Sol ve sağ sütunlar */
+.left-column,
+.right-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Bölüm kutuları */
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive düzende alt alta gelsin */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+}
+
+.right-column section {
+  background-color: #f0fdf4;
+}
